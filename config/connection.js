@@ -1,6 +1,6 @@
 const { connect, connection} = require('mongoose');
 
-const connnectionString = process.env.MONGODB_URI || 'mongodb://localhost:27017/your-database-name';
+const connnectionString = 'mongodb://localhost:27017/SocialNetworkdb';
 
 connect(connnectionString);
 

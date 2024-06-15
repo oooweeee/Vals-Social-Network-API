@@ -1,0 +1,20 @@
+{
+    "name": "valssocialnetworkapi",
+    "version": "1.0.1",
+    "description": "Mongoose back-end project - Main",
+    "main": "server.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon sever.js",
+        "seed": "concurrently \"node utils/seed/seeds.js\" \"nodemon server.js\""
+    },
+    "dependencies": {
+        "concurrently": "^8.2.2",
+        "express": "^4.17.1",
+        "mongoose": "^8.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.9"
+    }
+}
